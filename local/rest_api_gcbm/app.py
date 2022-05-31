@@ -397,7 +397,7 @@ def status():
     else:
         message = "In Progress"
 
-    return {"finished": message}
+    return {"status": message}
 
 
 @app.route("/check", methods=["GET", "POST"])
